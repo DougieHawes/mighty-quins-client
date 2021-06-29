@@ -1,0 +1,1 @@
+.header{background-color:maroon;position:fixed;width:100%;z-index:100}.header *{color:#d1edf2}.header .header-container{display:grid;grid-template-columns:42px auto;margin:0 2%}.header .header-container .header-logo{height:35px}.header .header-container .header-title{font-size:21px;margin:-16px 0}.header .header-container .header-subtitle{font-size:9px}

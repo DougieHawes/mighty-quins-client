@@ -1,0 +1,26 @@
+@import "../../variables.scss";
+
+.header {
+  * {
+    color: $colour2;
+  }
+  background-color: $colour3;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  .header-container {
+    display: grid;
+    grid-template-columns: 42px auto;
+    margin: 0 2%;
+    .header-logo {
+      height: 35px;
+    }
+    .header-title {
+      font-size: 21px;
+      margin: -16px 0;
+    }
+    .header-subtitle {
+      font-size: 9px;
+    }
+  }
+}

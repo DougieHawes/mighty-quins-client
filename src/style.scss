@@ -1,0 +1,23 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+  color: $colour1;
+  font-family: $font2;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $font1;
+  font-weight: 200;
+
+  transform: skewX(-14deg);
+}
+
+.app {
+  min-height: 100vh;
+  overflow-x: hidden;
+}

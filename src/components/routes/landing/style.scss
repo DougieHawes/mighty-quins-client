@@ -1,0 +1,46 @@
+@import "../../../variables.scss";
+
+.landing {
+  .landing-head {
+    background-image: url("../../../media/background.png");
+    background-position: center;
+    background-size: cover;
+    height: 420px;
+    position: relative;
+    .match-bar {
+      height: 180px;
+      position: absolute;
+      width: 420px;
+      .match-bar-title {
+        margin-bottom: -21px;
+      }
+      .match-bar-datetime {
+        margin-top: 70px;
+      }
+      .match-bar-underline {
+        border: 2px solid $colour2;
+        background-color: $colour3;
+        height: 35px;
+      }
+    }
+    .mens-bar {
+      right: -21px;
+      top: 60px;
+      .match-bar-underline {
+        transform: skewX(28deg);
+      }
+    }
+    .womens-bar {
+      left: -21px;
+      top: 210px;
+      .match-bar-datetime,
+      .match-bar-verses,
+      .match-bar-title {
+        text-align: right;
+      }
+      .match-bar-underline {
+        transform: skewX(-28deg);
+      }
+    }
+  }
+}
